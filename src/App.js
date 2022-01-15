@@ -69,7 +69,9 @@ const App = () => {
 
 
           <div className="row">
-            <button className="waves-effect waves-light btn" style={{width:'100%'}}>{editMode?'UPDATE':'ADD'}</button>
+            <button className="waves-effect waves-light btn" style={{width:'100%'}}>
+              {editMode?'UPDATE':'ADD'}
+            </button>
           </div>
 
         </form>
