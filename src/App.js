@@ -54,13 +54,15 @@ const App = () => {
           <div className="row">
 
             <div className="input-field col s6">
-              <input type="text" className="validate" value={todo.title}
+              <input type="text" id='f' className="validate" value={todo.title} 
                 onChange={e => setTodo({ ...todo, title: e.target.value })}/>
+                <label for="f">Title</label>
             </div>
 
             <div className="input-field col s6">
-              <input type="text" className="validate" value={todo.content}
+              <input type="text" id='c' className="validate" value={todo.content} 
                 onChange={e => setTodo({ ...todo, content: e.target.value })}/>
+                 <label for="c">Content</label>
             </div>
 
           </div>
