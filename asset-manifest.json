@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/MERNtodolist/static/js/main.d7daf0b2.chunk.js",
+    "main.js.map": "/MERNtodolist/static/js/main.d7daf0b2.chunk.js.map",
+    "runtime~main.js": "/MERNtodolist/static/js/runtime~main.3ea54116.js",
+    "runtime~main.js.map": "/MERNtodolist/static/js/runtime~main.3ea54116.js.map",
+    "static/js/2.7620b114.chunk.js": "/MERNtodolist/static/js/2.7620b114.chunk.js",
+    "static/js/2.7620b114.chunk.js.map": "/MERNtodolist/static/js/2.7620b114.chunk.js.map",
+    "index.html": "/MERNtodolist/index.html",
+    "precache-manifest.e1ba2dc1f749952d56eb7a82f99b26ef.js": "/MERNtodolist/precache-manifest.e1ba2dc1f749952d56eb7a82f99b26ef.js",
+    "service-worker.js": "/MERNtodolist/service-worker.js"
+  }
+}
