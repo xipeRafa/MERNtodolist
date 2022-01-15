@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ce2d543db3dafc4e18882ef4cc6eccda",
+    "revision": "bf130849be3d119fa16cf65c1153705c",
     "url": "/MERNtodolist/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MERNtodolist/static/js/2.7620b114.chunk.js"
   },
   {
-    "revision": "599afc0ac91145d7946a",
-    "url": "/MERNtodolist/static/js/main.d7daf0b2.chunk.js"
+    "revision": "a02a2dbc8cb3069ba230",
+    "url": "/MERNtodolist/static/js/main.eb1c7b31.chunk.js"
   },
   {
     "revision": "5eb5ff09ce5d2a6eb682",
