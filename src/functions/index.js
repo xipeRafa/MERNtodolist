@@ -1,5 +1,19 @@
 import * as api from '../api';
 
+/*
+
+import axios from 'axios';
+
+const url = "https://todolisttttttt.herokuapp.com/todos"; 
+const url = "http://localhost:5000/todos" 
+
+export const readTodos = () => axios.get(url);
+export const createTodo = newTodo => axios.post(url, newTodo);
+export const updateTodo = (id, updatedTodo) => axios.patch(`${url}/${id}`, updatedTodo);
+export const deleteTodo = (id) => axios.delete(`${url}/${id}`);
+
+*/
+
 export const readTodos = async () => {
     try {
         const { data } = await api.readTodos()
@@ -9,8 +23,6 @@ export const readTodos = async () => {
         console.log('error en read function')
     }
 }
-
-
 
 export const createTodo = async (todo) => {
     try {
@@ -31,7 +43,6 @@ export const updateTodo = async (id, todo) => {
         console.log('error en update function')
     }
 }
-
 
 export const deleteTodo = async (id) => {
     try { 
