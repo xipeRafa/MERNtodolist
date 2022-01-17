@@ -36,7 +36,7 @@ export const createTodo = async (todo) => {
 
 export const updateTodo = async (id, todo) => {
     try {
-        const { data } = await api.updateTodo(id, todo)
+        const { data } = await api.updateTodo(id, todo) // export const updateTodo = (id, updatedTodo) => axios.patch(`${url}/${id}`, updatedTodo);
         return data;
     } catch (error) {
         console.log(error)
